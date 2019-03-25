@@ -47,3 +47,6 @@ su - <user>
 sudo chown ghost:ghost /var/www/blog
 sudo chmod 775 /var/www/blog
 ghost install --db=sqlite3
+
+
+=== MONGO ===
