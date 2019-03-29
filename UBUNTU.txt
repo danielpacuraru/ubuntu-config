@@ -16,7 +16,7 @@ nginx -t
 add-apt-repository -y ppa:certbot/certbot
 apt install -y python-certbot-nginx
 
-certbot --nginx -d example.com -d www.example.com
+certbot --nginx -d www.danielpacuraru.com -d danielpacuraru.com -d blog.danielpacuraru.com
 
 
 === NODE ===
@@ -41,10 +41,10 @@ pm2 restart all
 
 npm install ghost-cli@latest -g
 
-adduser ghost
-usermod -aG sudo ghost
-su - <user>
-sudo chown ghost:ghost /var/www/blog
+adduser blog
+usermod -aG sudo blog
+su - blog
+sudo chown blog:blog /var/www/blog
 sudo chmod 775 /var/www/blog
 ghost install --db=sqlite3
 
