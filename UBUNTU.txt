@@ -14,7 +14,7 @@ nginx -t
 === SSL ===
 
 add-apt-repository -y ppa:certbot/certbot
-apt install -y python-certbot-nginx
+apt install -y python3-certbot-nginx
 
 certbot --nginx -d www.danielpacuraru.com -d danielpacuraru.com -d blog.danielpacuraru.com
 certbot certificates
@@ -22,7 +22,7 @@ certbot certificates
 
 === NODE ===
 
-curl -sL https://deb.nodesource.com/setup_11.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
 apt install -y nodejs
 apt install -y npm
 
