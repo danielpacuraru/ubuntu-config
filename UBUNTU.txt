@@ -17,6 +17,7 @@ add-apt-repository -y ppa:certbot/certbot
 apt install -y python-certbot-nginx
 
 certbot --nginx -d www.danielpacuraru.com -d danielpacuraru.com -d blog.danielpacuraru.com
+certbot certificates
 
 
 === NODE ===
