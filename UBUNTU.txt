@@ -55,3 +55,7 @@ ghost install --db=sqlite3
 
 
 === MONGO ===
+
+apt install -y mongodb
+
+https://medium.com/learn-swift-in-y-minutes/setup-mongodb-server-on-ubuntu-18-04-correctly-digital-ocean-apr-2020-6b00b4a2eb3
