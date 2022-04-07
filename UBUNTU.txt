@@ -16,7 +16,7 @@ nginx -t
 add-apt-repository -y ppa:certbot/certbot
 apt install -y python3-certbot-nginx
 
-certbot --nginx -d www.danielpacuraru.com -d danielpacuraru.com -d blog.danielpacuraru.com
+certbot --nginx -d katalogs.cf -d www.katalogs.cf -d app.katalogs.cf -d api.katalogs.cf
 certbot certificates
 
 
