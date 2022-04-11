@@ -29,6 +29,8 @@ npm install -g n
 sudo n stable
 (restart console)
 
+npm install -g npm@latest
+
 node -v
 npm -v
 
