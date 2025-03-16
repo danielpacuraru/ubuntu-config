@@ -21,14 +21,8 @@ certbot certificates
 
 === NODE ===
 
-apt install -y npm
-
-npm cache clean -f
-npm install -g n
-sudo n stable
-(restart console)
-
-npm install -g npm@latest
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install nodejs
 
 node -v
 npm -v
