@@ -13,10 +13,9 @@ nginx -t
 
 === SSL ===
 
-add-apt-repository -y ppa:certbot/certbot
 apt install -y python3-certbot-nginx
 
-certbot --nginx -d katalogs.cf -d www.katalogs.cf -d app.katalogs.cf -d api.katalogs.cf
+certbot --nginx -d digital-freak.com -d www.digital-freak.com -d admin.digital-freak.com -d api.digital-freak.com -d api2.digital-freak.com
 certbot certificates
 
 
